@@ -54,11 +54,11 @@
             // Home-row mods, GESC/TAB and thumb mod-taps ported from crkbd; combo & mo(1)/mo(2) layer switching unchanged.
 
             bindings = <
-&kp GRAVE  &kp N1  &kp N2    &kp N3     &kp N4  &kp N5                     &kp N6     &kp N7    &kp N8         &kp N9     &kp N0         &kp BACKSPACE
-&gresc     &kp Q   &kp W     &kp E      &kp R   &kp T                      &kp Y      &kp U     &kp I          &kp O      &kp P          &kp EQUAL
-&kp TAB    &kp A   &kp S     &kp D      &kp F   &kp G                      &kp H      &kp J     &kp K          &kp L      &kp SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z   &kp X     &kp C      &kp V   &kp B           &kp LG(V)  &kp LG(Z)  &kp N     &kp M          &kp COMMA  &kp DOT        &kp FSLH       &kp RSHFT
-                   &kp LALT  &kp LMETA  &mo 2   &mt RALT SPACE                        &kp BSPC  &mt LCTRL RET  &mo 1      &kp SPACE
+&kp GRAVE  &kp N1  &kp N2    &kp N3     &kp N4  &kp N5                     &kp N6     &kp N7    &kp N8  &kp N9                   &kp N0         &kp BACKSPACE
+&gresc     &kp Q   &kp W     &kp E      &kp R   &kp T                      &kp Y      &kp U     &kp I   &kp O                    &kp P          &kp EQUAL
+&kp TAB    &kp A   &kp S     &kp D      &kp F   &kp G                      &kp H      &kp J     &kp K   &kp L                    &kp SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z   &kp X     &kp C      &kp V   &kp B           &kp LG(V)  &kp LG(Z)  &kp N     &kp M   &kp COMMA                &kp DOT        &kp FSLH       &kp RSHFT
+                   &kp LALT  &kp LMETA  &mo 2   &mt RALT SPACE                        &kp BSPC  &mo 1   &mt LEFT_CONTROL RETURN  &kp SPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -92,7 +92,7 @@
             //                               |      |       |      |       |  |         |      |       |       |
 
             bindings = <
-&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &trans     &trans    &trans           &trans       &trans    &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &trans     &trans    &trans           &trans       &trans    &trans
 &trans      &trans        &trans        &trans        &trans        &trans                &trans     &trans    &trans           &kp LBKT     &kp RBKT  &kp BSLH
 &kp TILDE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT             &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR     &kp RPAR  &kp UNDER
 &kp LSHIFT  &trans        &trans        &kp LPAR      &kp LBRC      &trans        &trans  &kp DEL    &kp RBRC  &kp RPAR         &kp KP_PLUS  &kp LBRC  &kp RBRC   &kp RSHIFT
