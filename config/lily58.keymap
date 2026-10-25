@@ -54,10 +54,10 @@
             // Home-row mods, GESC/TAB and thumb mod-taps ported from crkbd; combo & mo(1)/mo(2) layer switching unchanged.
 
             bindings = <
-&gresc     &kp N1  &kp N2          &kp N3                   &kp N4  &kp N5                           &kp N6      &kp N7    &kp N8  &kp N9                   &kp N0         &kp BACKSPACE
+&gresc     &kp N1  &kp N2          &kp N3                   &kp N4  &kp N5                           &kp N6      &kp N7    &kp N8  &kp N9                   &kp N0         &kp DELETE
 &kp GRAVE  &kp Q   &kp W           &kp E                    &kp R   &kp T                            &kp Y       &kp U     &kp I   &kp O                    &kp P          &kp EQUAL
 &kp TAB    &kp A   &kp S           &kp D                    &kp F   &kp G                            &kp H       &kp J     &kp K   &kp L                    &kp SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z   &kp X           &kp C                    &kp V   &kp B           &kp PRINTSCREEN  &kp K_UNDO  &kp N     &kp M   &kp COMMA                &kp DOT        &kp FSLH       &kp RSHFT
+&kp LSHFT  &kp Z   &kp X           &kp C                    &kp V   &kp B           &kp PRINTSCREEN  &kp K_UNDO  &kp N     &kp M   &kp COMMA                &kp DOT        &kp FSLH    &kp RSHFT
                    &mt LALT SPACE  &mt LEFT_COMMAND RETURN  &mo 2   &mt RALT SPACE                               &kp BSPC  &mo 1   &mt LEFT_CONTROL RETURN  &kp SPACE
             >;
 
